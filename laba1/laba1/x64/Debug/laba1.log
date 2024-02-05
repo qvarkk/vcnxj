@@ -1,4 +1,30 @@
 ﻿  main1.cpp
-C:\Users\fused\Desktop\vcnxj\laba1\laba1\main1.cpp(247,28): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
-C:\Users\fused\Desktop\vcnxj\laba1\laba1\main1.cpp(259,26): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\fused\Desktop\vcnxj\laba1\laba1\main1.cpp(376,34): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\fused\Desktop\vcnxj\laba1\laba1\main1.cpp(378,32): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\fused\Desktop\vcnxj\laba1\laba1\main1.cpp(381,34): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\fused\Desktop\vcnxj\laba1\laba1\main1.cpp(383,32): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\fused\Desktop\vcnxj\laba1\laba1\main1.cpp(386,34): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\fused\Desktop\vcnxj\laba1\laba1\main1.cpp(388,32): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\fused\Desktop\vcnxj\laba1\laba1\main1.cpp(391,34): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\fused\Desktop\vcnxj\laba1\laba1\main1.cpp(393,32): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\fused\Desktop\vcnxj\laba1\laba1\main1.cpp(396,34): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\fused\Desktop\vcnxj\laba1\laba1\main1.cpp(398,32): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\fused\Desktop\vcnxj\laba1\laba1\main1.cpp(401,34): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\fused\Desktop\vcnxj\laba1\laba1\main1.cpp(403,32): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\fused\Desktop\vcnxj\laba1\laba1\main1.cpp(406,34): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\fused\Desktop\vcnxj\laba1\laba1\main1.cpp(408,32): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\fused\Desktop\vcnxj\laba1\laba1\main1.cpp(413,37): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\fused\Desktop\vcnxj\laba1\laba1\main1.cpp(415,35): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\fused\Desktop\vcnxj\laba1\laba1\main1.cpp(418,37): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\fused\Desktop\vcnxj\laba1\laba1\main1.cpp(420,35): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\fused\Desktop\vcnxj\laba1\laba1\main1.cpp(423,37): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\fused\Desktop\vcnxj\laba1\laba1\main1.cpp(425,35): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\fused\Desktop\vcnxj\laba1\laba1\main1.cpp(428,37): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\fused\Desktop\vcnxj\laba1\laba1\main1.cpp(430,35): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\fused\Desktop\vcnxj\laba1\laba1\main1.cpp(433,37): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\fused\Desktop\vcnxj\laba1\laba1\main1.cpp(435,35): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\fused\Desktop\vcnxj\laba1\laba1\main1.cpp(438,37): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\fused\Desktop\vcnxj\laba1\laba1\main1.cpp(440,35): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\fused\Desktop\vcnxj\laba1\laba1\main1.cpp(443,37): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\fused\Desktop\vcnxj\laba1\laba1\main1.cpp(445,35): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
   laba1.vcxproj -> C:\Users\fused\Desktop\vcnxj\laba1\x64\Debug\laba1.exe
