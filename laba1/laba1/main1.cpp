@@ -215,18 +215,49 @@ void GenerateGivenDoubleArray(ArrayGenerator a, Method m, double* arr, int size,
 	}
 }
 
-int main(int argc, char** argv) {
-	ArrayGenerator a;
-	const int methodNum = 4, size = 500 * 10000;
-	int** intArr = (int**)malloc(sizeof(int*) * methodNum);
+void AllocateArrays(int*** intArr, double*** doubleArr, int size, int methodNum) {
+	*intArr = (int**)malloc(sizeof(int*) * methodNum);
 	for (int i = 0; i < methodNum; i++) {
-		intArr[i] = (int*)malloc(sizeof(int) * size);
+		(*intArr)[i] = (int*)malloc(sizeof(int) * size);
 	}
 
-	double** doubleArr = (double**)malloc(sizeof(double*) * methodNum);
+	*doubleArr = (double**)malloc(sizeof(double*) * methodNum);
 	for (int i = 0; i < methodNum; i++) {
-		doubleArr[i] = (double*)malloc(sizeof(double) * size);
+		(*doubleArr)[i] = (double*)malloc(sizeof(double) * size);
 	}
+}
+
+ULONGLONG MeasureTime(void* (*intFuncs[])(ArrayGenerator, Method, int*, int, bool), void* (*doubleFuncs[])(ArrayGenerator, Method, double*, int, bool), ArrayGenerator a, int*** intArr, double*** doubleArr, int size) {
+	ULONGLONG startTime, endTime;
+
+	startTime = GetTickCount64();
+
+	(*(*intFuncs[0]))(a, Method::Sorted, (*intArr)[0], size, true); // sorted reverse
+	(*(*intFuncs[1]))(a, Method::Sorted, (*intArr)[1], size, false); // sorted not reverse
+	(*(*intFuncs[2]))(a, Method::Partially, (*intArr)[2], size, NULL); // partially sorted
+	(*(*intFuncs[3]))(a, Method::Random, (*intArr)[3], size, NULL); // random unsorted
+
+	(*(*doubleFuncs[0]))(a, Method::Sorted, (*doubleArr)[0], size, true);
+	(*(*doubleFuncs[0]))(a, Method::Sorted, (*doubleArr)[1], size, false);
+	(*(*doubleFuncs[0]))(a, Method::Partially, (*doubleArr)[2], size, NULL);
+	(*(*doubleFuncs[0]))(a, Method::Random, (*doubleArr)[3], size, NULL);
+
+	endTime = GetTickCount64();
+
+	std::cout << startTime << " --- " << endTime << std::endl;
+	std::cout << endTime - startTime << std::endl;
+
+	return endTime - startTime;
+}
+
+int main(int argc, char** argv) {
+	ArrayGenerator a;
+	const int methodNum = 4;
+	int size = 5 * 10000;
+	int** intArr = NULL;
+	double** doubleArr = NULL;
+
+	AllocateArrays(&intArr, &doubleArr, size, methodNum);
 
 	void (*intFuncs[])(ArrayGenerator, Method, int*, int, bool) = {
 		GenerateGivenIntArray,
@@ -260,6 +291,8 @@ int main(int argc, char** argv) {
 
 	std::cout << startTime << " --- " << endTime << std::endl;
 	std::cout << endTime - startTime << std::endl;
+
+	
 
 	bool print = false;
 	if (print) {

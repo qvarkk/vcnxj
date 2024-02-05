@@ -1,4 +1,4 @@
 ﻿  main1.cpp
-C:\Users\fused\Desktop\vcnxj\laba1\laba1\main1.cpp(247,28): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
-C:\Users\fused\Desktop\vcnxj\laba1\laba1\main1.cpp(259,26): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
-  laba1.vcxproj -> C:\Users\fused\Desktop\vcnxj\laba1\x64\Debug\laba1.exe
+C:\Users\qvarkk\Desktop\vcnxj-main\laba1\laba1\main1.cpp(255,28): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\qvarkk\Desktop\vcnxj-main\laba1\laba1\main1.cpp(267,26): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+  laba1.vcxproj -> C:\Users\qvarkk\Desktop\vcnxj-main\laba1\x64\Debug\laba1.exe
